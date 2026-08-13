@@ -1,0 +1,40 @@
+/* ===== ResuMate Custom Styles ===== */
+
+:root {
+    --resumate-primary: #2563eb;
+    --resumate-dark: #1e293b;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: var(--resumate-dark);
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(135deg, var(--resumate-primary), #7c3aed);
+    padding: 4rem 0;
+}
+
+.hero-section .lead {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.35rem;
+    letter-spacing: -0.02em;
+}
+
+/* Cards */
+.card .bi {
+    font-size: 3rem;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}

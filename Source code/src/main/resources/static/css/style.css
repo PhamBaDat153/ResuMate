@@ -1,0 +1,87 @@
+:root {
+    /* Brand */
+    --color-primary: #EE2B47;
+    --color-secondary: #A80038;
+    --color-accent: #FD0054;
+
+    /* Background */
+    --color-background: #FBF9FA;
+    --color-background-dark: #34374C;
+
+    /* Text */
+    --color-text: #2C2E3E;
+    --color-text-muted: #34374C;
+
+    /* Typography */
+    --font-primary: 'Roboto', sans-serif;
+    --font-logo: 'Cherry Bomb One', cursive;
+}
+
+/* Body section */
+body{
+    background: var(--color-background);
+    font-family: var(--font-primary);
+}
+
+/* Nav section */
+#navbar{
+    background: var(--color-primary);
+}
+
+#navbar .nav-button .nav-link{
+    color: var(--color-background);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+#navbar .nav-button .nav-link.active{
+    color: var(--color-primary);
+    background: var(--color-background);
+}
+
+#navbar .nav-button .nav-link:hover,
+#navbar .nav-button .nav-link:focus{
+    color: var(--color-primary);
+    background: var(--color-background);
+    opacity: 0.8;
+}
+
+.login-dropdown-btn{
+    background: var(--color-background);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-dropdown-btn:hover{
+    background: none;
+    color: var(--color-background);
+    border:2px solid var(--color-background);
+    box-shadow: none;
+}
+
+.login-dropdown-btn:focus {
+    background: none;
+    color: var(--color-background);
+    border: 2px solid var(--color-background);
+    box-shadow: none;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+}
+
+#logoText{
+    font-family: var(--font-logo);
+    color: var(--color-background);
+    font-size: 40px;
+}
+
+#logoImg{
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
